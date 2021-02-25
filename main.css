@@ -27,3 +27,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
+a {
+  font-family: 'Open Sans', serif;
+}
