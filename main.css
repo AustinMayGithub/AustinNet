@@ -3,7 +3,7 @@ p {
 }
 td {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #0D1117;
 td:nth-child(1)
 {
   background-color:#161B22 ;
@@ -15,8 +15,8 @@ a {
 }
 
 body {
-  background-color: #0D1117;
-  color: white;
+  background-color: White;
+  color: #0D1117;
 }
 @media screen and (prefers-color-scheme: light) {
   body {
