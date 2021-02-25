@@ -27,6 +27,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-a {
+.gototop {
   font-family: 'Open Sans', serif;
 }
