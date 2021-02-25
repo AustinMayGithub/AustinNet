@@ -5,9 +5,12 @@ td {
   font-family: 'Open Sans', sans-serif;
   color: white;
 }
+a {
+  color:#58A6FF;
+}
 
 body {
-  background-color: #0d1c44;
+  background-color: #0D1117;
   color: white;
 }
 @media screen and (prefers-color-scheme: light) {
