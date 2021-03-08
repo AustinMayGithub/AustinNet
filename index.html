@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<title>Home - Austin's Projects</title>
+<html lang="en">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+</style> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Austin's Projects">
+  <meta name="keywords" content="Electronics, Software, Hardware">
+  <meta name="author" content="Austin Jensen">
+  <meta name="viewport" content="width=1080, initial-scale=1.0">
+    
+</head>
+<link rel="stylesheet" href="css.css"
+
+<body>
+    <div class="wrapper">
+        <div class="box logo">
+            <br>
+            <div id="factDisplay" style="font-style: italic;">
+            </div>
+            <div class="links"><a href="index.html">HOME</a></div>
+
+        </div>
+        <div class="box banner">
+            <h1>Welcome To Austin's Project Website</h1>
+        </div>
+        <div class="box nav">
+            Projects<br><br>
+            <div class="links">
+            <a href="attiny.html" >Automated Attiny85 programmer</a><br>
+            <a href="server.html" >Minecraft Server</a><br>
+            <a href="satelite.html">Recieving data from satelites</a>
+            </div>
+ 
+        </div>
+        <div class="box main">
+            <h2> --- Welcome to The new updated Austin's Project's Website ---</h2>
+            This website contains my projects that I am currently working on or have finished.<br><br>
+
+            My main projects are Electronics and Software.<br><br>
+
+            Latest Project: Making a Amateur Radio Antenna.<br>
+        </div>
+        
+    </div>
+</body>
+<script>
+var facts = ["Now with Cascading Style Sheets!", "Software Design From 2002!", "Hosted on a 2009 server!","HyperText Markup Language!","Welcome To Austin's Projects!"];
+
+
+!function newFact() {
+  var randomFact = Math.floor(Math.random() * facts.length);
+  document.getElementById('factDisplay').innerHTML = facts[randomFact]
+}();
+</script>

@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    padding: 8px;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-style: bold;
+    color: rgb(16, 16, 94);
+    padding: 1px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 15fr 60fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    grid-template-areas: 
+        "side logo banner"
+        "side nav main"
+        "side nav main";
+    
+}
+.nav{
+    border-right: 2px solid;
+    
+    
+}
+.box {
+    
+    padding: 1px;
+}
+
+.logo {
+    grid-area: logo;
+    text-align: center;
+    
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+a{
+    color: #58A6FF;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<title>Attiny Programmer - Austin's Projects</title>
+<html lang="en">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+</style> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Austin's Projects">
+  <meta name="keywords" content="Electronics, Software, Hardware">
+  <meta name="author" content="Austin Jensen">
+  <meta name="viewport" content="width=1080, initial-scale=1.0">
+    
+</head>
+<link rel="stylesheet" href="css.css"
+
+<body>
+    <div class="wrapper">
+        <div class="box logo">
+            <br>
+            <div id="factDisplay" style="font-style: italic;">
+            </div>
+            <div class="links" ><a href="index.html">HOME</a></div>
+
+        </div>
+        <div class="box banner">
+            <h1>Automated Attiny Programmer</h1>
+        </div>
+        <div class="box nav">
+            Projects<br><br>
+            <div class="links">
+            <a href="attiny.html" >Automated Attiny85 programmer</a><br>
+            <a href="server.html" >Minecraft Server</a><br>
+            <a href="satelite.html">Recieving data from satelites</a>
+            </div>
+ 
+        </div>
+        <div class="box main">
+            <p>I needed to program 50 attiny85's with the same program for a project 
+                and I wanted a simple way to burn the bootloader, set the fuses and 
+                program it with my code. so with help of the well documented AVRdude 
+                commands I made a program that automates the process. all you have to do 
+                is drop in the chip to a USBtiny programmer and hit enter!</p>
+                <p>And boy is it fast! It takes just under 4 seconds to burn the bootloader,
+                set the fuses, write to the chip and verify it! (tested with a 722b intel hex file)</p>
+                <p><font size="5"><b>How to use the program</b></font></p>
+                <p><b>Download it
+                <a href="https://github.com/AustinMayGithub/Automated-attiny85-programmer/blob/main/Programer.exe">
+                Here</a></b></p>
+                <p>copy your pre compiled hex file into the folder in which the automation 
+                program is contained and rename it to program.hex</p>
+                <p>Prerequisites</p>
+                <ul>
+                  <li>Arduino IDE</li>
+                  <li>your program (in a intel hex file)</li>
+                </ul>
+                <p><font size="4"><b>Compiling a Arduino Sketch into a hex file</b></font></p>
+                <p>Open the Arduino IDE and go into preferences (File&gt;Preferences) and 
+                select both show verbose whilst uploading and compilation, under that in 
+                the additional boards manager URLs box paste the following link </p>
+                <p><font face="Courier">
+                <a href="https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json">
+                https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json</a></font></p>
+                <p><img border="0" src="images/attiny1.jpg" width="623" height="371"></p>
+                <p><i>what your preferences window should look like (apart from the 
+                directory names at the top and bottom)</i></p>
+                <p>This adds support for the Attiny85 to the 
+                Arduino IDE. you then need to go into the board's manager 
+                (Tools&gt;Board&gt;Boards manager) and in the search bar type attiny and only 
+                one option should show up, install that one.</p>
+                <p>Next you need to select attiny 25/45/85 as the board, attiny85 as the 
+                processor and USBtinyISP as the programmer </p>
+                <p>Then import your Arduino sketch</p>
+                <p>press verfy and upload BUT dont connect the programmer to your computer </p>
+                <p>it will compile the program to a hex and attempt to upload it but it 
+                will fail, this is what we want.</p>
+                <p><img border="0" src="images/attiny2.jpg" width="auto" height="450"></p>
+                <p>You then need to scroll up to where the red/orange text ends and the 
+                white text starts and you should have something along the lines of the 
+                following</p>
+                <p><font face="Courier">C:\Program Files 
+                (x86)\Arduino\hardware\tools\avr/bin/avrdude -CC:\Program Files 
+                (x86)\Arduino\hardware\tools\avr/etc/avrdude.conf -v -pattiny85 -cusbtiny 
+                -Uflash:w:<mark>C:\Users\Your computer name\AppData\Local\Temp\arduino_build_(highest number)</mark>/blink.hex
+                </font></p>
+                <p>we want the part that tells us the location of the hex file, In my case 
+                it is the highlighted part. You then need to go into file explorer and 
+                paste the location of the hex file we will then find the file and copy it 
+                to the folder in which the automation program is located. you then need to 
+                rename the file to program.hex.</p>
+                <p>you can now connect the programmer and launch the program.</p>
+        </div>
+        
+    </div>
+</body>
+<script>
+    var facts = ["Now with Cascading Style Sheets!", "Software Design From 2002!", "Hosted on a 2009 server!","HyperText Markup Language!","Welcome To Austin's Projects!"];
+    
+    
+    !function newFact() {
+      var randomFact = Math.floor(Math.random() * facts.length);
+      document.getElementById('factDisplay').innerHTML = facts[randomFact]
+    }();
+</script>
