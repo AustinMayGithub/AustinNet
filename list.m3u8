@@ -1,0 +1,34 @@
+#EXTM3U
+#PLAYLIST:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="https://i.imgur.com/zXWgbVk.png" group-title="Religious",Amazing Discoveries TV
+https://uni01rtmp.tulix.tv/amazingdtv/amazingdtv/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",BEIN SPORTS
+http://37723998.to:2052/dale1/1234/21712?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="Undefined",CNN International
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="AU" tvg-logo="https://i.imgur.com/Kxem8ae.jpg" group-title="Sport",Fox Sports News
+https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Espn 1 HD
+http://latinoamericatv.vip:3334/Yan/Yan123/1095?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Espn 2 HD
+http://latinoamericatv.vip:3334/Yan/Yan123/1096?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Fox SPorts HD
+http://latinoamericatv.vip:3334/Yan/Yan123/1102?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="CA" tvg-logo="" group-title="Sport",Fox SPorts 2 HD
+http://latinoamericatv.vip:3334/Yan/Yan123/1100?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SE" tvg-logo="" group-title="Sport",Animal Planet HD
+http://ed8.oknirvana.club:8880/Upjcd6aFC4/GLNuhnKcg6/51466?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="SE" tvg-logo="" group-title="Sport",BBC Earth HD
+http://51.91.73.99:25461/sweden/PM66f7Y43H/12397?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="GB" tvg-logo="" group-title="Undefined",DISCOVERY CHANNEL HD
+http://rv.imax.re:80/2773394744/2331282131/80660?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Undefined",Discovery Channel HD
+http://152.89.62.111:8080/m123/m123/33884?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="UN" tvg-logo="" group-title="Undefined",Discovery Turbo HD
+http://152.89.62.111:8080/m123/m123/11?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="IR" tvg-logo="" group-title="Undefined",Discovery Channel
+http://ed8.oknirvana.club:8880/Upjcd6aFC4/GLNuhnKcg6/31196?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="NO" tvg-logo="" group-title="Undefined",DISCOVERY HD
+http://rv.imax.re:80/2773394744/2331282131/79738?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Undefined",Discovery Channel
+http://ed8.oknirvana.club:8880/Upjcd6aFC4/GLNuhnKcg6/31539?checkedby:iptvcat.com
